@@ -33,9 +33,9 @@ class HomeScreen extends StatelessWidget {
                 scrollDirection: Axis.horizontal,
                 child: Row(
                   children: [
-                    ImageCard("https://picsum.photos/id/66/300/200"),
-                    ImageCard("https://picsum.photos/id/76/300/200"),
-                    ImageCard("https://picsum.photos/id/87/300/200"),
+                    ImageCard("https://picsum.photos/id/103/300/200"),
+                    ImageCard("https://picsum.photos/id/104/300/200"),
+                    ImageCard("https://picsum.photos/id/105/300/200"),
                   ],
                 ),
               ),
@@ -97,7 +97,7 @@ class ImageWithCaption extends StatelessWidget {
     return Column(
       children: [
         Image.network(
-          "https://picsum.photos/id/66/200/300",
+          "https://picsum.photos/id/103/200/300",
           width: double.infinity,
           height: 250.0,
           fit: BoxFit.cover,
